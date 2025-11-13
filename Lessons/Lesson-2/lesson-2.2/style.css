@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+.nova-oval-regular {
+    font-family: "Nova Oval", system-ui;
+}
+
+.roboto-400 {
+    font-family: "Roboto", sans-serif;
+}
