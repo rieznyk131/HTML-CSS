@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    background-color: #fde1c2;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rubik-pixels{
+    font-family: "Rubik Pixels", system-ui;
+}
+.sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+}
+.fjalla-one {
+    font-family: "Fjalla One", sans-serif;
+}
+.indie-flower {
+    font-family: "Indie Flower", cursive;
+}
