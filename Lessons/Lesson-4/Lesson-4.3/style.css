@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.w-1070 {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*----------------------------header-------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+header nav a {
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.47px;
+    text-align: left;
+}
+.header__active-link {
+    color:  #19191b;
+    border-bottom: 2px solid #5454d4;
+}
+.header__button {
+    width: 211.02px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: #ff7143;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.531px;
+}
+/*------------------------section hero-----------------*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+.hero div h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 103%;
+    letter-spacing: -0.03em;
+    color: #19191b;
+}
+.hero div p {
+    color: rgba(105, 104, 113, 1);
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    text-align: left;
+    margin: 30px 0 50px 0;
+    width: 409.43px;
+}
+.hero__button {
+    border-radius: 10px;
+    width: 188px;
+    height: 60px;
+    border: none;
+    background: #5454d4;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+/*----------------------------brands---------------------*/
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 142px 0 160px 0;
+}
+/*------------------------features----------------------*/
+.feature-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-1 div {
+    margin-left: 166px;
+}
+.feature-1 div h2{
+    color: rgba(25, 25, 27, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+    text-align: left;
+}
+.feature-1 div p {
+    color: rgba(105, 104, 113, 1);
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    text-align: left;
+    margin: 30px 0;
+    width: 459px;
+}
+
+.feature-1 div a {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #5454d4;
+}
+.feature-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 83px;
+}
+.feature-2 div h2 {
+    color: rgba(25, 25, 27, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+    text-align: left;
+}
+.feature-2 div p {
+    color: rgba(105, 104, 113, 1);
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    text-align: left;
+    width: 409px;
+    margin: 30px 0;
+}
+.feature-2 div a {
+    color: rgba(84, 84, 212, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.53px;
+    text-align: left;
+}
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+    gap: 75px;
+}
+.benchmarks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-audit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-audit p {
+    width: 307px;
+}
+.retention-audit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.retention-audit p {
+    width: 307px;
+}
+.feature-list h3 {
+    color: rgba(25, 25, 27, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.75px;
+    margin: 20px 0;
+}
+.feature-list p {
+    color: rgba(105, 104, 113, 1);
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+/*----------------------prising------------------------*/
+.pricing {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.pricing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pricing-header h2 {
+    color: rgba(25, 25, 27, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.88px;
+    text-align: left;
+    width: 523px;
+}
+.switch {
+    width: 344px;
+    height: 65px;
+    background: rgba(247, 247, 251, 1);
+    border-radius: 10px;
+    display: flex;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.switch button {
+    flex: 1;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: rgba(25, 25, 27, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+}
+.switch button.active {
+    background: rgba(84, 84, 212, 1);
+    border-radius: 10px 0 0 10px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+}
+.pricing-cards__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 230px 0;
+    transition: 1s;
+    gap: 40px;
+}
+.pricing-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 330px;
+    height: 441px;
+    background: #f8f8f8;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.tariff__name {
+    color: rgba(105, 104, 113, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.56px;
+}
+.tariff__price {
+    color: rgba(29, 41, 63, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.03px;
+    margin-top: 22px;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(105, 104, 113, 1);
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.53px;
+    text-align: center;
+}
+
+.pricing-cards__wrapper button {
+    border: 1px solid #eae9f2;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    width: 285px;
+    height: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #5454d4;
+
+}
+.pricing-cards:hover{
+    border-radius: 10px;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+    background: rgba(255, 113, 67, 1);
+    transform: scale(1.14);
+    transition: 1s;
+}
+
+.pricing-cards__wrapper div:hover button{
+    background: rgba(159, 57, 25, 1);
+    border: #9F3919FF;
+    color: rgba(255, 255, 255, 1);
+}
+.pricing-cards__wrapper div:hover p {
+    color: rgba(255, 255, 255, 1);
+}
