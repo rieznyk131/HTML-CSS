@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+header, footer {
+    height: 22vh;
+    background: rgba(217, 217, 217, 1);
+}
+main {
+    display: flex;
+}
+aside {
+    height: 56vh;
+    width: 27vw;
+    background: rgba(192, 189, 189, 1);
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    height: 56vh;
+    width: 46vw;
+}
+.main__div-top-section {
+    height: 50%;
+    width: 100%;
+    background: rgba(130, 120, 120, 1);
+}
+.main__div-bottom-section {
+    height: 50%;
+    width: 100%;
+    background: rgba(183, 173, 173, 1);
+}

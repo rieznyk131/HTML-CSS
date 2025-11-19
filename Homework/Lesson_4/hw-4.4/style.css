@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+nav {
+    height: 5vh;
+    background: rgba(217, 217, 217, 1);
+}
+main {
+    height: 85vh;
+    display: flex;
+}
+main section {
+    height: 100%;
+    width: 28vw;
+    background: rgba(164, 164, 164, 1);
+}
+main article {
+    height: 100%;
+    width: 30vw;
+    background: rgba(193, 193, 193, 1);
+}
+main div {
+  display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 42vw;
+}
+.main__aside-top {
+    height: 50%;
+    width: 100%;
+    background: rgba(127, 122, 122, 1);
+}
+.main__aside-bottom {
+    height: 50%;
+    width: 100%;
+    background: rgba(107, 97, 97, 1);
+}
+footer {
+    height: 10vh;
+    background: rgba(217, 217, 217, 1);
+}
