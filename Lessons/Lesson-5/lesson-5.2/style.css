@@ -1,0 +1,17 @@
+.pink-box {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    margin: 100px auto 0 auto;
+    animation: lorem 5s linear infinite alternate;
+}
+@keyframes lorem {
+    from {
+        transform: translate(-300px, -300px);
+    }
+
+    to {
+        /*transform: rotate(0deg);*/
+        background-color: blueviolet;
+    }
+}
