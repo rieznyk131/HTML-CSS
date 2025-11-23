@@ -1,0 +1,13 @@
+div :last-child {
+    color: cornflowerblue;
+}
+/*div p::first-letter {*/
+/*    color: crimson;*/
+/*    font-size: 20px;*/
+/*}*/
+div p:last-of-type {
+    color: violet;
+}
+ul li:nth-last-child(6) {
+    color: dodgerblue;
+}

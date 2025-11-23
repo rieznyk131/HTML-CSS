@@ -1,0 +1,19 @@
+ul li::after{
+    content: '!!!!';
+    color: red;
+}
+ul li {
+    list-style-type: none;
+}
+ul {
+    padding-inline-start: 10px;
+}
+ul li::before {
+    display: inline-block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABQElEQVR4nO2VQUoDMRRAXysI1qK4dOMRPIDaTesFROgBpLiW7gQ3Ch5D8AiuXRUFRUTXbS1YSruuG3e1IwM/MIRk0thMizAPPuQnmf8mmckM5Nh5AZ5ZApHEQtkX6TArQQm4AnrAJLFKFddZSNeAJ4NMrTSWrhqu6wAXKXXjsXaa+FIkn0DNIjGhbu4GaAFfEi3pc74bPZlQnVGoi11hRT3Tsta/ATSBV2AMfANvwLmMzS3uyoR4mxW7iZ0wRT/R3gMOUnIrjUSxQ2AbGHisKJZULPnEroUicOch8ok2DlaAM+AdmAYUn+LBTyDpLVDwEc8rvAfqPsJQ4j8TaZ/MIznj69LuZC0eydHS2dLkM59bF6rAieQ1w2/x2CAKJt6R/MNQcDNLcUFyda5t84KLXQVzcfRvxY/AQ0ruOy+HpfALxR0SqXKfayAAAAAASUVORK5CYII=');
+    background-size: cover;
+    margin-right: 10px;
+}

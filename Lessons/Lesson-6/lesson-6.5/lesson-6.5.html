@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!---------------------------Forms---------------------------------->
+<form class="form-registration">
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+    <sup>*</sup>
+    <label for="email">E-mail</label>
+    <input type="email" name="E-mail" id="email" placeholder="example@gmail.com" required>
+    <sup>*</sup>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="enter your password" required>
+    <sup>*</sup>
+    <label for="age">Enter your age</label>
+    <input type="number" name="age" id="age" min="18" max="100">
+<!------------------------Radio-buttons---------------------------->
+    <label>Sex</label>
+    <label><input type="radio" name="gender" value="female">Female</label>
+    <label><input type="radio" name="gender" value="male">Male</label>
+<!---------------------------Check=box------------------------------->
+    <label>
+        <input type="checkbox" name="newsletter" class="subscribe">Subscribe to our newsletter
+    </label>
+<!---------------------------drop-down list------------------------->
+    <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="">Select the country</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="italy">Italy</option>
+        </select>
+    
+    <label for="phone">Phone</label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value="X">IPhone X</option>
+            <option value="XR">IPhone XR</option>
+            <option value="XS">IPhone XS</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value="A33">Samsung A33</option>
+            <option value="A35">Samsung A35</option>
+            <option value="A55">Samsung A55</option>
+        </optgroup>
+    </select>
+<!----------------------comments-------------------------------->
+<label for="comment"></label>
+    <textarea id="comment" rows="5" cols="30"></textarea>
+<!-------------------------buttons------------------->
+   <div>
+       <input type="submit" value="Submit">
+       <input type="reset" value="Reset">
+   </div>
+
+</form>
+
+</body>
+</html>

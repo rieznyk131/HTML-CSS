@@ -1,0 +1,26 @@
+button {
+    width: 150px;
+    height: 70px;
+    border: none;
+    background-color: pink;
+    color: #1c0c2e;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+}
+button:active{
+    background-color: yellowgreen;
+}
+a:link {
+    text-decoration: none;
+    color: green;
+  }
+a:visited {
+    color: #2d68d3;
+}
+li::marker {
+    color: yellow;
+}
+p::selection {
+    background-color: black;
+    color: white;
+}

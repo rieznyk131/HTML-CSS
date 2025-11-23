@@ -1,0 +1,17 @@
+p {
+    color: hotpink;
+}
+div p.lorem {
+    color: #432828;
+}
+
+p.text {
+    color: #2d68d3;
+}
+.pink-box .pink {
+    color: pink;
+}
+body p.text {
+    color: crimson;
+}
+

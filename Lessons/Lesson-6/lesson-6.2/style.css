@@ -1,0 +1,12 @@
+h1~p {
+    color: crimson;
+}
+div p {
+    color: green;
+}
+div>p>span {
+    color: red;
+}
+div>div>p {
+    color: cornflowerblue;
+}
