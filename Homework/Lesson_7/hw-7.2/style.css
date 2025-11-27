@@ -12,22 +12,22 @@ header {
     position: fixed;
     top: 0;
 }
-.header__w-1165 {
-    width: 1167px;
+.header__w-1153 {
+    width: 1153px;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
-.header__w-1165 h2 {
+.header__w-1153 h2 {
     opacity: 0.6;
     color: rgba(229, 229, 229, 1);
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
 }
-.header__w-1165 nav ul{
+.header__w-1153 nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
