@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: #bc829f;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #a2d8a2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+body{
+    margin: 17vh 10px;
+}

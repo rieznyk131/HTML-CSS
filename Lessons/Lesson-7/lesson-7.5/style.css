@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    background-color: rgba(141, 142, 143, 0.9);
+    position: relative;
+}
+.sale {
+    width: 70px;
+    height: 45px;
+    background-color: #9f4545;
+    position: absolute;
+    top: -20px;
+    left: -25px;
+}
