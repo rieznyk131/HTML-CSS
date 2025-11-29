@@ -1,0 +1,21 @@
+.container {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    background-color: grey;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+.one {
+    align-self: flex-start;
+}
+.two {
+    align-self: center;
+}
+.three {
+    align-self: flex-end;
+}

@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    overflow: hidden;
+    font-family: "Inter", sans-serif;
+}
+.wrapper {
+    height: 100vh;
+    background: rgba(22, 22, 34, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-left {
+    width: 396px;
+    height: 396px;
+    border: 48px solid #6f1df4;
+    opacity: 0.5;
+    border-radius: 100%;
+    position: absolute;
+    top: -200px;
+    left: -210px;
+}
+.circle-right {
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    border: 48px solid #6f1df4;
+    position: absolute;
+    top: -20px;
+    right: -120px;
+}
+.page-not-found {
+    text-align: center;
+}
+.page-not-found h2 {
+    font-weight: 700;
+    font-size: 180px;
+    letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 140px;
+}
+.page-not-found h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 30px 0 24px 0;
+}
+.page-not-found p {
+    width: 533px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.75);
+}
+.page-not-found div {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 40px;
+}
+.page-not-found div button:nth-of-type(1) {
+    border-radius: 32px;
+    padding: 0 48px;
+    width: 212px;
+    height: 64px;
+    background: #6f1df4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+}
+.page-not-found div button:nth-of-type(2) {
+    border-radius: 32px;
+    padding: 0 48px;
+    width: 168px;
+    height: 64px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}

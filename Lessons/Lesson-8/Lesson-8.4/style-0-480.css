@@ -1,0 +1,59 @@
+@media screen and (max-width: 480px) {
+    .circle-left, .circle-right {
+        display: none;
+    }
+    .page-not-found {
+        padding: 0 16px;
+    }
+    .page-not-found h2 {
+        font-weight: 700;
+        font-size: 110px;
+        letter-spacing: -0.5px;
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 82px;
+    }
+    .page-not-found h3 {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0;
+        margin: 16px 0 8px 0;
+    }
+    .page-not-found p {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0;
+        width: 100%;
+
+    }
+    .page-not-found div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        padding-top: 24px;
+    }
+    .page-not-found div button:nth-of-type(1) {
+        width: 343px;
+        height: 64px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .page-not-found div button:nth-of-type(2) {
+        width: 343px;
+        height: 64px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        color: #000;
+    }
+}

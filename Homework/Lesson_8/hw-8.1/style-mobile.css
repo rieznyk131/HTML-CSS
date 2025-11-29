@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+   .wrapper {
+       width: 343px;
+       display: flex;
+       flex-direction: column;
+       gap: 40px;
+   }
+    .item {
+        width: 343px;
+    }
+}

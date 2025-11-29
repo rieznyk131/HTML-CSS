@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.wrapper{
+    font-family: "Inter", serif;
+    width: 1180px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.item{
+    width: 372px;
+    text-align: center;
+}
+.item img{
+    width: 100%;
+}

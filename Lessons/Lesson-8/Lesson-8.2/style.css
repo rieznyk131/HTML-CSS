@@ -1,0 +1,27 @@
+.item {
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+}
+.item-1 {
+    background-color: hotpink;
+}
+.item-2 {
+    background-color: limegreen;
+}
+.item-3 {
+    background-color: darkcyan;
+}
+@media screen and (max-width: 480px) {
+    .item-2 {
+        background-color: darkkhaki;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .item-1 {
+        background-color: #c30404;
+    }
+    .item-3 {
+        background-color: #4a1a6a;
+    }
+}
