@@ -1,0 +1,24 @@
+
+.grid-container {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+@media screen and (max-width: 480px) {
+    .grid-container{
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 16px;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
